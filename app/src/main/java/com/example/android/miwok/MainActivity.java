@@ -42,6 +42,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(numbersIntent);
             }
         });
+
+        // Find the View that shows the colors category
+        TextView colors = (TextView) findViewById(R.id.colors);
+
+        // Set a click listener on that View
+        colors.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Create a new intent to open the {@link ColorsActivity}
+                Intent colorsIntent = new Intent(MainActivity.this, ColorsActivity.class);
+
+                // Start the new activity
+                startActivity(colorsIntent);
+            }
+        });
     }
 
 
