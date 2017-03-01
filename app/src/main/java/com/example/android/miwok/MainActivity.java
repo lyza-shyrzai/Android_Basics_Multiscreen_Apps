@@ -73,6 +73,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(phrasesIntent);
             }
         });
+
+        // Find the View that shows the family category
+        TextView family = (TextView) findViewById(R.id.family);
+
+        // Set a click listener on that View
+        family.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the family category is clicked on.
+            @Override
+            public void onClick(View v) {
+                // Create a new intent to open the {@link FamilyActivity}
+                Intent familyIntent = new Intent(MainActivity.this, FamilyActivity.class);
+
+                // Start the new activity
+                startActivity(familyIntent);
+            }
+        });
     }
 
 
