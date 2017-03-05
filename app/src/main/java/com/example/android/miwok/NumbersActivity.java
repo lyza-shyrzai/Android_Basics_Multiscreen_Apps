@@ -26,7 +26,7 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("nine");
         words.add("ten");
 
-        // Verify the contents of the array by printing out each array element to the logs
+        // Verify the contents of the list by printing out each element to the logs
         for (int i = 0; i < 10; i++) {
             Log.v("NumbersActivity", "Word at index " + i + ": " + words.get(i));
         }
