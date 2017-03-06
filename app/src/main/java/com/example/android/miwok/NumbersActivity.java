@@ -29,9 +29,6 @@ public class NumbersActivity extends AppCompatActivity {
         words.add("nine");
         words.add("ten");
 
-        // Find the root view so we can add child views to it
-        LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
-
         ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, words);
 
         ListView listView = (ListView) findViewById(R.id.list);
