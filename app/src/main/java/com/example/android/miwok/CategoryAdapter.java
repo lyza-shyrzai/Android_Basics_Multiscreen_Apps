@@ -22,6 +22,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         } else if (position == 3) {
             return new PhrasesFragment();
         }
+        return null;
     }
 
     @Override
