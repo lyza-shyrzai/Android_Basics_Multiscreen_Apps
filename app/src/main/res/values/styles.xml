@@ -23,7 +23,7 @@
     </style>
 
     <!-- App bar style -->
-    <style name="MiwokAppStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <style name="MiwokAppStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="elevation">0dp</item>
     </style>
 
@@ -38,4 +38,5 @@
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textColor">#A8A19E</item>
     </style>
+
 </resources>
